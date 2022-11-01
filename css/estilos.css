@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+	background-image: url(./img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position:top left;
+    background-size: 1250px 550px;
+	background-color: #382f32;
+	--color-primary: #ff5ab0;
+	--color-secondary: #ffcef3;
+	--color-font: #52686a;
+	--boton-padding: 20px 40px;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.logo {
+	size:25px;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto; 
+	padding: 80px 0;
+	max-width: 1200px;
+}
+
+.subtitle {
+	color: #e08e79;
+	font-size: 2.5rem;
+	margin-bottom: 35px;
+}
+
+.about{
+	 min-height: 400px;
+	 display: grid;
+	 grid-template-columns: 1fr 1fr;
+	 row-gap: 80px; 
+	 
+}
+ 
+.about__img {
+	 text-align: center;
+	 
+}
+ 
+.about__img--left {
+	 text-align: left;
+	 
+}
+ 
+.about__picture {
+	 max-width: 80%;
+}
+ 
+.logo {
+	 max-width: 40%;
+	 
+	 
+}
+
+hero__title {
+	font-size: 3rem;
+	font-family: Bahnschrift;
+	color: var(--color-font);
+	
+
+}
+
+.about__paragraph {
+	margin-bottom: 20px;
+	line-height: 1.5;
+	font-weight: 300;
+	color: white;
+}
+
+.demo-bg {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+h1{
+	color: #c0012a;
+	font-size: 3rem;
+}
+
+
+
+
